@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TriviMultipleChoice_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0cj-SA-XUk">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xlj-NR-hRd">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Bx-8O-NTg">
+                                                <rect key="frame" x="277" y="8" width="61" height="47"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="61" id="zXB-9M-KRL"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLY-ZS-6qf" userLabel="scoreLabel">
+                                                <rect key="frame" x="345" y="6" width="51" height="47"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="51" id="8MW-WW-OAA"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quiz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdo-Ig-45M" userLabel="questionNumberLabel">
+                                                <rect key="frame" x="28" y="13" width="95" height="39"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="95" id="1gz-n6-Hfb"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="26"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.42058260310000001" green="0.50407025520000004" blue="0.6422837844" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="iLY-ZS-6qf" secondAttribute="trailing" constant="18" id="06N-Ga-Atu"/>
+                                            <constraint firstItem="3Bx-8O-NTg" firstAttribute="top" secondItem="xlj-NR-hRd" secondAttribute="topMargin" id="5WX-aj-qKT"/>
+                                            <constraint firstItem="gdo-Ig-45M" firstAttribute="leading" secondItem="xlj-NR-hRd" secondAttribute="leading" constant="28" id="6YF-M4-C6M"/>
+                                            <constraint firstItem="gdo-Ig-45M" firstAttribute="centerY" secondItem="iLY-ZS-6qf" secondAttribute="centerY" id="DD6-Kt-zDD"/>
+                                            <constraint firstItem="iLY-ZS-6qf" firstAttribute="top" secondItem="xlj-NR-hRd" secondAttribute="top" constant="9" id="FZF-78-y9p"/>
+                                            <constraint firstItem="iLY-ZS-6qf" firstAttribute="leading" secondItem="3Bx-8O-NTg" secondAttribute="trailing" constant="7" id="GL1-NM-mUU"/>
+                                            <constraint firstAttribute="bottom" secondItem="iLY-ZS-6qf" secondAttribute="bottom" constant="24" id="d1d-BQ-7Cu"/>
+                                            <constraint firstItem="gdo-Ig-45M" firstAttribute="top" secondItem="xlj-NR-hRd" secondAttribute="top" constant="13" id="jXv-SL-abQ"/>
+                                            <constraint firstAttribute="height" constant="80" id="rc1-oF-xNj"/>
+                                            <constraint firstAttribute="bottom" secondItem="3Bx-8O-NTg" secondAttribute="bottom" constant="25" id="zB7-iI-aeI"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X1P-DS-9Nv">
+                                        <rect key="frame" x="0.0" y="80" width="414" height="688"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is the " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fO7-kg-9Mm" userLabel="QuestionLabel">
+                                                <rect key="frame" x="35" y="74" width="335" height="247"/>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Te1-B0-n2h" userLabel="First_Answer">
+                                                <rect key="frame" x="59" y="392" width="294" height="48"/>
+                                                <color key="backgroundColor" red="0.75294119120000003" green="0.61176472900000001" blue="0.74117654560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="Mv1-gm-JFq"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                                                <state key="normal" title="1">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Np7-PY-Iwc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S5d-rp-GQq" userLabel="Second_Answer">
+                                                <rect key="frame" x="59" y="458" width="294" height="48"/>
+                                                <color key="backgroundColor" red="0.75294119120000003" green="0.61176472900000001" blue="0.74117654560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="9tn-uB-AsE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                                                <state key="normal" title="2">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pn7-T9-BXs"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozb-Nn-3LQ" userLabel="Third_Answer">
+                                                <rect key="frame" x="59" y="529" width="294" height="49"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="49" id="lsF-Rx-5FO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                                                <state key="normal" title="3">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V7N-p9-voD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H2R-kU-Fd9" userLabel="Fourth_Answer">
+                                                <rect key="frame" x="59" y="595" width="294" height="48"/>
+                                                <color key="backgroundColor" red="0.75294119120000003" green="0.61176472900000001" blue="0.74117654560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="48" id="RY2-fA-SE3"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                                                <state key="normal" title="4">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="answerButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jBe-cS-si5"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.42058260310000001" green="0.50407025520000004" blue="0.6422837844" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="fO7-kg-9Mm" secondAttribute="trailing" constant="44" id="DJm-sq-5wG"/>
+                                            <constraint firstItem="ozb-Nn-3LQ" firstAttribute="top" secondItem="S5d-rp-GQq" secondAttribute="bottom" constant="23" id="ES6-Pf-0Ah"/>
+                                            <constraint firstItem="H2R-kU-Fd9" firstAttribute="top" secondItem="ozb-Nn-3LQ" secondAttribute="bottom" constant="17" id="GfJ-O8-72E"/>
+                                            <constraint firstItem="S5d-rp-GQq" firstAttribute="top" secondItem="Te1-B0-n2h" secondAttribute="bottom" constant="18" id="HVL-qF-1Ed"/>
+                                            <constraint firstItem="S5d-rp-GQq" firstAttribute="leading" secondItem="ozb-Nn-3LQ" secondAttribute="leading" id="J7F-47-GpR"/>
+                                            <constraint firstItem="fO7-kg-9Mm" firstAttribute="leading" secondItem="X1P-DS-9Nv" secondAttribute="leading" constant="35" id="PYn-oq-YWo"/>
+                                            <constraint firstItem="Te1-B0-n2h" firstAttribute="top" secondItem="fO7-kg-9Mm" secondAttribute="bottom" constant="71" id="RQH-np-paT"/>
+                                            <constraint firstItem="S5d-rp-GQq" firstAttribute="trailing" secondItem="ozb-Nn-3LQ" secondAttribute="trailing" id="WDU-6C-DC9"/>
+                                            <constraint firstAttribute="trailing" secondItem="Te1-B0-n2h" secondAttribute="trailing" constant="61" id="ZAq-HB-a3c"/>
+                                            <constraint firstItem="Te1-B0-n2h" firstAttribute="leading" secondItem="S5d-rp-GQq" secondAttribute="leading" id="ao0-nE-tci"/>
+                                            <constraint firstItem="fO7-kg-9Mm" firstAttribute="top" secondItem="X1P-DS-9Nv" secondAttribute="top" constant="74" id="bYe-MZ-983"/>
+                                            <constraint firstItem="Te1-B0-n2h" firstAttribute="leading" secondItem="X1P-DS-9Nv" secondAttribute="leading" constant="59" id="eqI-PW-Pss"/>
+                                            <constraint firstItem="Te1-B0-n2h" firstAttribute="trailing" secondItem="S5d-rp-GQq" secondAttribute="trailing" id="fb8-uF-jcv"/>
+                                            <constraint firstAttribute="height" constant="688" id="j0v-H9-XGD"/>
+                                            <constraint firstAttribute="bottom" secondItem="H2R-kU-Fd9" secondAttribute="bottom" constant="45" id="lXi-VZ-RCd"/>
+                                            <constraint firstItem="ozb-Nn-3LQ" firstAttribute="trailing" secondItem="H2R-kU-Fd9" secondAttribute="trailing" id="nkT-mt-nae"/>
+                                            <constraint firstItem="ozb-Nn-3LQ" firstAttribute="leading" secondItem="H2R-kU-Fd9" secondAttribute="leading" id="t3r-qq-mho"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ADU-ei-DFj">
+                                        <rect key="frame" x="0.0" y="768" width="414" height="50"/>
+                                        <subviews>
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="a7q-9F-lu7">
+                                                <rect key="frame" x="27" y="23" width="365" height="4"/>
+                                                <color key="backgroundColor" red="0.42058260310000001" green="0.50407025520000004" blue="0.6422837844" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" red="0.75294119120000003" green="0.61176472900000001" blue="0.74117654560000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </progressView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.42058260310000001" green="0.50407025520000004" blue="0.6422837844" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="a7q-9F-lu7" firstAttribute="top" secondItem="ADU-ei-DFj" secondAttribute="top" constant="23" id="5vz-WF-5xg"/>
+                                            <constraint firstItem="a7q-9F-lu7" firstAttribute="leading" secondItem="ADU-ei-DFj" secondAttribute="leading" constant="27" id="Azg-RO-Ixg"/>
+                                            <constraint firstAttribute="trailing" secondItem="a7q-9F-lu7" secondAttribute="trailing" constant="22" id="FUv-ng-dBj"/>
+                                            <constraint firstAttribute="height" constant="50" id="kK0-3S-0kV"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.42058260310000001" green="0.50407025520000004" blue="0.6422837844" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0cj-SA-XUk" secondAttribute="trailing" id="10l-MC-4jG"/>
+                            <constraint firstItem="0cj-SA-XUk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Oef-kH-nLh"/>
+                            <constraint firstItem="0cj-SA-XUk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ngc-OS-6bu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0cj-SA-XUk" secondAttribute="bottom" id="y71-mI-fUY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="optionFirstButton" destination="Te1-B0-n2h" id="Pfv-rL-p07"/>
+                        <outlet property="optionFourthButton" destination="H2R-kU-Fd9" id="UHR-zi-rhP"/>
+                        <outlet property="optionSecondButton" destination="S5d-rp-GQq" id="l4h-9r-5DJ"/>
+                        <outlet property="optionThirdButton" destination="ozb-Nn-3LQ" id="RgN-r5-e9H"/>
+                        <outlet property="progressBar" destination="a7q-9F-lu7" id="WjS-JV-RZy"/>
+                        <outlet property="questionLabel" destination="fO7-kg-9Mm" id="qGO-Ad-nXi"/>
+                        <outlet property="scoreValueLabel" destination="iLY-ZS-6qf" id="jbz-Sx-BI2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="5Lw-zu-al7">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <viewLayoutGuide key="safeArea" id="nJi-bX-9Pt"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
