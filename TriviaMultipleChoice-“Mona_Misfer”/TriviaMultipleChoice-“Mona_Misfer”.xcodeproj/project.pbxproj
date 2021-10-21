@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39BF4FA82721698C00FED385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF4FA72721698C00FED385 /* AppDelegate.swift */; };
+		39BF4FAA2721698C00FED385 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF4FA92721698C00FED385 /* SceneDelegate.swift */; };
+		39BF4FAC2721698C00FED385 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF4FAB2721698C00FED385 /* ViewController.swift */; };
+		39BF4FAF2721698C00FED385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BF4FAD2721698C00FED385 /* Main.storyboard */; };
+		39BF4FB12721698D00FED385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BF4FB02721698D00FED385 /* Assets.xcassets */; };
+		39BF4FB42721698D00FED385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BF4FB22721698D00FED385 /* LaunchScreen.storyboard */; };
+		39BF4FBD2721762A00FED385 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF4FBC2721762A00FED385 /* Quiz.swift */; };
+		39BF4FBF2721785500FED385 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BF4FBE2721785500FED385 /* Question.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39BF4FA42721698C00FED385 /* TriviaMultipleChoice-“Mona_Misfer”.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TriviaMultipleChoice-“Mona_Misfer”.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39BF4FA72721698C00FED385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39BF4FA92721698C00FED385 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		39BF4FAB2721698C00FED385 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39BF4FAE2721698C00FED385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39BF4FB02721698D00FED385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39BF4FB32721698D00FED385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39BF4FB52721698D00FED385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39BF4FBC2721762A00FED385 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		39BF4FBE2721785500FED385 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39BF4FA12721698C00FED385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39BF4F9B2721698C00FED385 = {
+			isa = PBXGroup;
+			children = (
+				39BF4FA62721698C00FED385 /* TriviaMultipleChoice-“Mona_Misfer” */,
+				39BF4FA52721698C00FED385 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39BF4FA52721698C00FED385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39BF4FA42721698C00FED385 /* TriviaMultipleChoice-“Mona_Misfer”.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39BF4FA62721698C00FED385 /* TriviaMultipleChoice-“Mona_Misfer” */ = {
+			isa = PBXGroup;
+			children = (
+				39BF4FBB272175F300FED385 /* model */,
+				39BF4FA72721698C00FED385 /* AppDelegate.swift */,
+				39BF4FA92721698C00FED385 /* SceneDelegate.swift */,
+				39BF4FAB2721698C00FED385 /* ViewController.swift */,
+				39BF4FAD2721698C00FED385 /* Main.storyboard */,
+				39BF4FB02721698D00FED385 /* Assets.xcassets */,
+				39BF4FB22721698D00FED385 /* LaunchScreen.storyboard */,
+				39BF4FB52721698D00FED385 /* Info.plist */,
+			);
+			path = "TriviaMultipleChoice-“Mona_Misfer”";
+			sourceTree = "<group>";
+		};
+		39BF4FBB272175F300FED385 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				39BF4FBC2721762A00FED385 /* Quiz.swift */,
+				39BF4FBE2721785500FED385 /* Question.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39BF4FA32721698C00FED385 /* TriviaMultipleChoice-“Mona_Misfer” */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39BF4FB82721698D00FED385 /* Build configuration list for PBXNativeTarget "TriviaMultipleChoice-“Mona_Misfer”" */;
+			buildPhases = (
+				39BF4FA02721698C00FED385 /* Sources */,
+				39BF4FA12721698C00FED385 /* Frameworks */,
+				39BF4FA22721698C00FED385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TriviaMultipleChoice-“Mona_Misfer”";
+			productName = "TriviaMultipleChoice-“Mona_Misfer”";
+			productReference = 39BF4FA42721698C00FED385 /* TriviaMultipleChoice-“Mona_Misfer”.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39BF4F9C2721698C00FED385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					39BF4FA32721698C00FED385 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 39BF4F9F2721698C00FED385 /* Build configuration list for PBXProject "TriviaMultipleChoice-“Mona_Misfer”" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39BF4F9B2721698C00FED385;
+			productRefGroup = 39BF4FA52721698C00FED385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39BF4FA32721698C00FED385 /* TriviaMultipleChoice-“Mona_Misfer” */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39BF4FA22721698C00FED385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BF4FB42721698D00FED385 /* LaunchScreen.storyboard in Resources */,
+				39BF4FB12721698D00FED385 /* Assets.xcassets in Resources */,
+				39BF4FAF2721698C00FED385 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39BF4FA02721698C00FED385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BF4FAC2721698C00FED385 /* ViewController.swift in Sources */,
+				39BF4FBF2721785500FED385 /* Question.swift in Sources */,
+				39BF4FBD2721762A00FED385 /* Quiz.swift in Sources */,
+				39BF4FA82721698C00FED385 /* AppDelegate.swift in Sources */,
+				39BF4FAA2721698C00FED385 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39BF4FAD2721698C00FED385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BF4FAE2721698C00FED385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39BF4FB22721698D00FED385 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39BF4FB32721698D00FED385 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39BF4FB62721698D00FED385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39BF4FB72721698D00FED385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39BF4FB92721698D00FED385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2J33S59Q6;
+				INFOPLIST_FILE = "TriviaMultipleChoice-“Mona_Misfer”/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mona.TriviaMultipleChoice--Mona-Misfer-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39BF4FBA2721698D00FED385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S2J33S59Q6;
+				INFOPLIST_FILE = "TriviaMultipleChoice-“Mona_Misfer”/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mona.TriviaMultipleChoice--Mona-Misfer-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39BF4F9F2721698C00FED385 /* Build configuration list for PBXProject "TriviaMultipleChoice-“Mona_Misfer”" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BF4FB62721698D00FED385 /* Debug */,
+				39BF4FB72721698D00FED385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39BF4FB82721698D00FED385 /* Build configuration list for PBXNativeTarget "TriviaMultipleChoice-“Mona_Misfer”" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39BF4FB92721698D00FED385 /* Debug */,
+				39BF4FBA2721698D00FED385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39BF4F9C2721698C00FED385 /* Project object */;
+}
