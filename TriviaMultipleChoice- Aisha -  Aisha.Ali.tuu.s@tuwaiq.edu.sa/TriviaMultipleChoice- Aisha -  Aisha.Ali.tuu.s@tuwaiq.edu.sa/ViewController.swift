@@ -96,18 +96,23 @@ class ViewController: UIViewController {
     DispatchQueue.main.asyncAfter(deadline: .now() + 0.2, execute: {
       sender.backgroundColor = UIColor.clear})
     
-//    quetionNumber += 1
-    
-    updateQuestion()
-    UpdateScreen()
-
-  
+    if getNextQuestion() {
+      timer = Timer.scheduledTimer(timeInterval: 0.5
+                                   , target: self
+                                   , selector: #selector(updateQuestion)
+                                   , userInfo: nil
+                                   , repeats: true)
+    }else{
+      resultAlert()
+    }
   }
+  
   
   
   
   @objc func updateQuestion (){
     if quetionNumber <= allQuestions.questionsList.count - 1  {
+      progressView.setProgress(Float(getProgress()), animated: true)
       questionsLabel.text = allQuestions.questionsList[quetionNumber].question
       firstButton.setTitle(allQuestions.questionsList[quetionNumber].answers[0], for: .normal)
       secondButton.setTitle(allQuestions.questionsList[quetionNumber].answers[1], for: .normal)
@@ -115,22 +120,9 @@ class ViewController: UIViewController {
       fourthButton.setTitle(allQuestions.questionsList[quetionNumber].answers[3], for: .normal)
       selectedAnswer = allQuestions.questionsList[quetionNumber].correctAnswer
       progressView.setProgress(Float(getProgress()), animated: true)
-      quetionNumber+=1
-      
-    }else{
-      resultAlert()
-
     }
-   UpdateScreen()
   }
-  
-  
-  func UpdateScreen () {
-    valueScoreLabel.text = "\(score)"
-    progressView.frame.size.width = (view.frame.size.width/CGFloat(allQuestions.questionsList.count) * CGFloat(quetionNumber+1))
-  }
-  
-  
+
   func  hasUserGoodScore(_ score:Int){
     if score  >= 20{
       playSound(name: "clap")
