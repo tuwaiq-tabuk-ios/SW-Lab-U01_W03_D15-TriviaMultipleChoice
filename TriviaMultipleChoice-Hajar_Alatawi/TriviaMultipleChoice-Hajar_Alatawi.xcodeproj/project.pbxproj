@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32747D0A27213D08007D696D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32747D0927213D08007D696D /* AppDelegate.swift */; };
+		32747D0C27213D08007D696D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32747D0B27213D08007D696D /* SceneDelegate.swift */; };
+		32747D0E27213D08007D696D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32747D0D27213D08007D696D /* ViewController.swift */; };
+		32747D1127213D08007D696D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32747D0F27213D08007D696D /* Main.storyboard */; };
+		32747D1327213D09007D696D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32747D1227213D09007D696D /* Assets.xcassets */; };
+		32747D1627213D09007D696D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32747D1427213D09007D696D /* LaunchScreen.storyboard */; };
+		32747D1E27214BB9007D696D /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32747D1D27214BB9007D696D /* QuizBrain.swift */; };
+		32747D2027214CA3007D696D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32747D1F27214CA3007D696D /* Question.swift */; };
+		32747D2327215B53007D696D /* Wrong-Answer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32747D2227215B53007D696D /* Wrong-Answer.mp3 */; };
+		32747D2527215B61007D696D /* Right-answer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32747D2427215B61007D696D /* Right-answer.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32747D0627213D08007D696D /* TriviaMultipleChoice-Hajar_Alatawi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TriviaMultipleChoice-Hajar_Alatawi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32747D0927213D08007D696D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32747D0B27213D08007D696D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		32747D0D27213D08007D696D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32747D1027213D08007D696D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32747D1227213D09007D696D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32747D1527213D09007D696D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32747D1727213D09007D696D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32747D1D27214BB9007D696D /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
+		32747D1F27214CA3007D696D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		32747D2227215B53007D696D /* Wrong-Answer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Wrong-Answer.mp3"; path = "../../../../../../../Downloads/Wrong-Answer.mp3"; sourceTree = "<group>"; };
+		32747D2427215B61007D696D /* Right-answer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Right-answer.mp3"; path = "../../../../../../../Downloads/right-answer-ding-ding-sound-effect/Right-answer.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32747D0327213D08007D696D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32747CFD27213D08007D696D = {
+			isa = PBXGroup;
+			children = (
+				32747D0827213D08007D696D /* TriviaMultipleChoice-Hajar_Alatawi */,
+				32747D0727213D08007D696D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32747D0727213D08007D696D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32747D0627213D08007D696D /* TriviaMultipleChoice-Hajar_Alatawi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32747D0827213D08007D696D /* TriviaMultipleChoice-Hajar_Alatawi */ = {
+			isa = PBXGroup;
+			children = (
+				32747D2427215B61007D696D /* Right-answer.mp3 */,
+				32747D2227215B53007D696D /* Wrong-Answer.mp3 */,
+				32747D21272154B6007D696D /* Model */,
+				32747D0927213D08007D696D /* AppDelegate.swift */,
+				32747D0B27213D08007D696D /* SceneDelegate.swift */,
+				32747D0D27213D08007D696D /* ViewController.swift */,
+				32747D0F27213D08007D696D /* Main.storyboard */,
+				32747D1227213D09007D696D /* Assets.xcassets */,
+				32747D1427213D09007D696D /* LaunchScreen.storyboard */,
+				32747D1727213D09007D696D /* Info.plist */,
+			);
+			path = "TriviaMultipleChoice-Hajar_Alatawi";
+			sourceTree = "<group>";
+		};
+		32747D21272154B6007D696D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32747D1F27214CA3007D696D /* Question.swift */,
+				32747D1D27214BB9007D696D /* QuizBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32747D0527213D08007D696D /* TriviaMultipleChoice-Hajar_Alatawi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32747D1A27213D09007D696D /* Build configuration list for PBXNativeTarget "TriviaMultipleChoice-Hajar_Alatawi" */;
+			buildPhases = (
+				32747D0227213D08007D696D /* Sources */,
+				32747D0327213D08007D696D /* Frameworks */,
+				32747D0427213D08007D696D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TriviaMultipleChoice-Hajar_Alatawi";
+			productName = "TriviaMultipleChoice-Hajar_Alatawi";
+			productReference = 32747D0627213D08007D696D /* TriviaMultipleChoice-Hajar_Alatawi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32747CFE27213D08007D696D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					32747D0527213D08007D696D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 32747D0127213D08007D696D /* Build configuration list for PBXProject "TriviaMultipleChoice-Hajar_Alatawi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32747CFD27213D08007D696D;
+			productRefGroup = 32747D0727213D08007D696D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32747D0527213D08007D696D /* TriviaMultipleChoice-Hajar_Alatawi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32747D0427213D08007D696D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32747D2327215B53007D696D /* Wrong-Answer.mp3 in Resources */,
+				32747D1627213D09007D696D /* LaunchScreen.storyboard in Resources */,
+				32747D1327213D09007D696D /* Assets.xcassets in Resources */,
+				32747D1127213D08007D696D /* Main.storyboard in Resources */,
+				32747D2527215B61007D696D /* Right-answer.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32747D0227213D08007D696D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32747D2027214CA3007D696D /* Question.swift in Sources */,
+				32747D0E27213D08007D696D /* ViewController.swift in Sources */,
+				32747D0A27213D08007D696D /* AppDelegate.swift in Sources */,
+				32747D0C27213D08007D696D /* SceneDelegate.swift in Sources */,
+				32747D1E27214BB9007D696D /* QuizBrain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32747D0F27213D08007D696D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32747D1027213D08007D696D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32747D1427213D09007D696D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32747D1527213D09007D696D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32747D1827213D09007D696D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32747D1927213D09007D696D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32747D1B27213D09007D696D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5L25FKK3Q;
+				INFOPLIST_FILE = "TriviaMultipleChoice-Hajar_Alatawi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajar.TriviaMultipleChoice-Hajar-Alatawi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		32747D1C27213D09007D696D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z5L25FKK3Q;
+				INFOPLIST_FILE = "TriviaMultipleChoice-Hajar_Alatawi/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hajar.TriviaMultipleChoice-Hajar-Alatawi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32747D0127213D08007D696D /* Build configuration list for PBXProject "TriviaMultipleChoice-Hajar_Alatawi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32747D1827213D09007D696D /* Debug */,
+				32747D1927213D09007D696D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32747D1A27213D09007D696D /* Build configuration list for PBXNativeTarget "TriviaMultipleChoice-Hajar_Alatawi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32747D1B27213D09007D696D /* Debug */,
+				32747D1C27213D09007D696D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32747CFE27213D08007D696D /* Project object */;
+}
