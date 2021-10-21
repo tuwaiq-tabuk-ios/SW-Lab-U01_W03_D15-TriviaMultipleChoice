@@ -35,3 +35,5 @@ Sixth App that replicates the Trivia game where the users have to choose between
 
 ## Deadline 
 Friday 21st October 3:30 pm
+![Simulator Screen Shot - iPhone 12 - 2021-10-21 at 16 05 39](https://user-images.githubusercontent.com/91871608/138283586-49f264d6-62ad-4a29-8448-f2414f5e6e2c.png)
+
