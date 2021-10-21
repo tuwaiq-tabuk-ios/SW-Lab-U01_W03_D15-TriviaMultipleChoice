@@ -14,7 +14,7 @@
 		0750F85C27213D990066B037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0750F85B27213D990066B037 /* Assets.xcassets */; };
 		0750F85F27213D990066B037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0750F85D27213D990066B037 /* LaunchScreen.storyboard */; };
 		0750F86B2721755D0066B037 /* structMultiplechice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0750F86A2721755D0066B037 /* structMultiplechice.swift */; };
-		0750F86F27219DEB0066B037 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0750F86E27219DEB0066B037 /* clap.wav */; };
+		0750F8712721C65E0066B037 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0750F8702721C65E0066B037 /* clap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		0750F85E27213D990066B037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0750F86027213D990066B037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0750F86A2721755D0066B037 /* structMultiplechice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = structMultiplechice.swift; sourceTree = "<group>"; };
-		0750F86E27219DEB0066B037 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = clap.wav; path = "../../../../../Tuwaiq docs/TWQ-docs Unit01/clap.wav"; sourceTree = "<group>"; };
+		0750F8702721C65E0066B037 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = clap.wav; path = "../../../../../../Tuwaiq docs/TWQ-docs Unit01/clap.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 		0750F85127213D980066B037 /* TriviaMultipleChoice-"HajerMohamed" */ = {
 			isa = PBXGroup;
 			children = (
-				0750F86E27219DEB0066B037 /* clap.wav */,
+				0750F8702721C65E0066B037 /* clap.wav */,
 				0750F85227213D980066B037 /* AppDelegate.swift */,
 				0750F85427213D980066B037 /* SceneDelegate.swift */,
 				0750F85627213D980066B037 /* ViewController.swift */,
@@ -130,7 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0750F86F27219DEB0066B037 /* clap.wav in Resources */,
+				0750F8712721C65E0066B037 /* clap.wav in Resources */,
 				0750F85F27213D990066B037 /* LaunchScreen.storyboard in Resources */,
 				0750F85C27213D990066B037 /* Assets.xcassets in Resources */,
 				0750F85A27213D980066B037 /* Main.storyboard in Resources */,
