@@ -32,6 +32,9 @@ Sixth App that replicates the Trivia game where the users have to choose between
 3. Present the Layout and add components
 
 ![Customize_buttons](resources/images/Customize_buttons.png)
+![Simulator Screen Shot - iPhone 12 - 2021-10-21 at 16 17 57](https://user-images.githubusercontent.com/91871856/138291608-c15f9d84-6cb1-4b84-98d9-2865e2fca63b.png)
+
+
 
 ## Deadline 
 Friday 21st October 3:30 pm
