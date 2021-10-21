@@ -18,6 +18,15 @@ Sixth App that replicates the Trivia game where the users have to choose between
 13. **_Mutating methods_** that change the state of structs properties
 14. Playing audio with the framework `AVFoundation`
 
+## Video
+
+
+https://user-images.githubusercontent.com/91871668/138276058-ba5698c1-865e-4fd2-be50-db0ca4903c34.mp4
+
+
+
+
+
 15. Customization of buttons
    - Rounded corners
    - Color and width of the borders
