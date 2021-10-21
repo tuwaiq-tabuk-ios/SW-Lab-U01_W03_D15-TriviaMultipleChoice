@@ -35,3 +35,10 @@ Sixth App that replicates the Trivia game where the users have to choose between
 
 ## Deadline 
 Friday 21st October 3:30 pm
+##video .
+
+https://user-images.githubusercontent.com/91871990/138276846-0929dcb9-d493-40fb-acef-5a183f6610d9.mp4
+
+
+
+
