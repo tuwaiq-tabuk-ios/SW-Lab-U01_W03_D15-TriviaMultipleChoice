@@ -1,5 +1,12 @@
 # SW-Lab-U01_W03_D15-TriviaMultipleChoice
 Sixth App that replicates the Trivia game where the users have to choose between 4 responses
+##Video
+
+https://user-images.githubusercontent.com/91871371/138277058-0d23c26c-b2f1-4e6e-a247-4ecf50f4d6b6.mov
+
+
+
+
 
 ## Topics
 1. Auto Layout
