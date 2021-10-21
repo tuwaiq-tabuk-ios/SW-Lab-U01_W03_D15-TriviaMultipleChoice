@@ -17,6 +17,8 @@ class ViewController: UIViewController {
   var score : Int = 0
   var selectedAnswer : String = ""
   var quetionNumber = 0
+  var rightQuestion = 0
+  var wrongQuestion = 0
   
   
   
@@ -60,17 +62,15 @@ class ViewController: UIViewController {
     fourthButton.backgroundColor = .clear
     
     //Questions View
-//    questionsView.layer.borderWidth = 4
-//    questionsView.layer.cornerRadius = 20
+    questionsView.layer.cornerRadius = 20
     questionsView.backgroundColor = .clear
     
     //Question Label
-    questionsLabel.layer.borderWidth = 4
-    questionsLabel.layer.cornerRadius = 20
-      questionsLabel.backgroundColor = .clear
+    questionsLabel.layer.borderWidth = 10
+    questionsLabel.layer.cornerRadius = 10
+//      questionsLabel.backgroundColor = .clear
     questionsLabel.layer.borderColor = UIColor.white.cgColor
 
-//    questionsView.backgroundColor = .clear
     
     valueScoreLabel.text = ""
     questionsLabel.text = ""
@@ -85,12 +85,16 @@ class ViewController: UIViewController {
     if userSelected == selectedAnswer {
       sender.backgroundColor = UIColor.green
       score += 5
+      rightQuestion += 1
+      print(rightQuestion)
       valueScoreLabel.text = "\(score)"
       
     }else{
       
       sender.backgroundColor = UIColor.red
       score -= 10
+      wrongQuestion += 1
+      print(wrongQuestion)
       valueScoreLabel.text = "\(score)"
     }
     DispatchQueue.main.asyncAfter(deadline: .now() + 0.2, execute: {
@@ -123,8 +127,8 @@ class ViewController: UIViewController {
     }
   }
 
-  func  hasUserGoodScore(_ score:Int){
-    if score  >= 20{
+  func  hasUserGoodScore(){
+    if rightQuestion  > wrongQuestion{
       playSound(name: "clap")
     }else{
       playSound(name: "fail")
@@ -133,7 +137,7 @@ class ViewController: UIViewController {
   
   
   func resultAlert(){
-    hasUserGoodScore (score)
+    hasUserGoodScore ()
     let resetAlert = UIAlertController(title: "The Game is Over"
                                        , message: "Your Score is \(score) out of 10"
                                        , preferredStyle: .alert)
@@ -148,6 +152,8 @@ class ViewController: UIViewController {
     score = 0
     updateQuestion ()
     quetionNumber = 0
+    wrongQuestion = 0
+    rightQuestion = 0
     audioPlayer.stop()
     
   }
