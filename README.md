@@ -1,6 +1,15 @@
 # SW-Lab-U01_W03_D15-TriviaMultipleChoice
 Sixth App that replicates the Trivia game where the users have to choose between 4 responses
 
+## Demo Video
+1. Demo for all app
+https://user-images.githubusercontent.com/91820775/138274557-8694d268-59c7-4196-ad6a-7ca37c6b7ce1.mp4
+
+2. Demo for if the user has achieved 70 percent of the score
+https://user-images.githubusercontent.com/91820775/138274666-bad0e930-881b-48e3-99b0-620070681458.mp4
+
+
+
 ## Topics
 1. Auto Layout
 2. The static function `Timer.scheduledTimer`
