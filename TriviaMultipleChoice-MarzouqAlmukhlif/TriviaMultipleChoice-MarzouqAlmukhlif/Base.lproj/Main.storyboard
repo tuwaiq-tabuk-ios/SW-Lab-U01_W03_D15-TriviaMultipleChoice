@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -80,7 +79,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Qusetion 5 Of 18" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qqy-PQ-REy" userLabel="Question_Number_Label">
                                                                 <rect key="frame" x="0.0" y="10" width="335" height="17"/>
                                                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Zvb-wP-rB8" userLabel="Question_Text_View">
@@ -314,10 +313,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="8Ko-ob-MM4"/>
                     <connections>
-                        <outlet property="optionAButton" destination="pyz-X9-VMK" id="GxH-xz-DnK"/>
-                        <outlet property="optionBButton" destination="oq4-XT-s7M" id="IBB-Sk-Y3t"/>
-                        <outlet property="optionCButton" destination="3KN-Bd-Ovb" id="ZOW-2m-DvB"/>
-                        <outlet property="optionDButton" destination="OmC-sg-zCH" id="1t6-pt-lOD"/>
+                        <outlet property="optionFirstButton" destination="pyz-X9-VMK" id="GxH-xz-DnK"/>
+                        <outlet property="optionFourthButton" destination="OmC-sg-zCH" id="1t6-pt-lOD"/>
+                        <outlet property="optionSecondButton" destination="oq4-XT-s7M" id="IBB-Sk-Y3t"/>
+                        <outlet property="optionThirdButton" destination="3KN-Bd-Ovb" id="ZOW-2m-DvB"/>
                         <outlet property="progressBar" destination="4Nt-Ix-Wxv" id="zkk-cL-hR4"/>
                         <outlet property="questionLabel" destination="Zvb-wP-rB8" id="3z8-1R-TNq"/>
                         <outlet property="questionNumberLabel" destination="Qqy-PQ-REy" id="gKV-Mp-yco"/>
@@ -396,7 +395,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Multiple Choice Quiz" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MWv-NB-h7E" userLabel="Question_Number_Label">
                                                                 <rect key="frame" x="0.0" y="30" width="335" height="17"/>
                                                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="avf-S3-IdO" userLabel="OptionA_View" customClass="CustomView" customModule="TriviaMultipleChoice_MarzouqAlmukhlif" customModuleProvider="target">
@@ -656,18 +655,18 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xUK-CT-xIi" userLabel="Question_Number_Label">
                                                         <rect key="frame" x="0.0" y="30" width="335" height="19"/>
                                                         <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="19"/>
-                                                        <nil key="textColor"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FN0-C0-9lj">
                                                         <rect key="frame" x="10" y="69" width="315" height="448"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <string key="text">This application made with all love by me and I hope you like it and if you want to have fun and challenge your friends or if you want to test your knowledge it will be so nice because there is a lot of great questions about everything! try it and share it with your friends and enjoy.
 
 -Marzouq Almukhlif
 
 Sincerely.</string>
-                                                        <color key="textColor" systemColor="labelColor"/>
+                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
@@ -781,7 +780,7 @@ Sincerely.</string>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pause" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rD7-00-s8K" userLabel="Question_Number_Label">
                                                                 <rect key="frame" x="0.0" y="10" width="335" height="17"/>
                                                                 <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
-                                                                <nil key="textColor"/>
+                                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Do you want to continue or start over?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oPq-cI-L2u" userLabel="Question_Text_View">
@@ -958,11 +957,5 @@ Sincerely.</string>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

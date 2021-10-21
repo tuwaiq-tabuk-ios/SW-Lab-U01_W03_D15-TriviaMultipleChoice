@@ -13,10 +13,10 @@ class ViewController: UIViewController {
   @IBOutlet weak var valueScoreLabel: UILabel!
   @IBOutlet weak var questionNumberLabel: UILabel!
   @IBOutlet weak var questionLabel: UITextView!
-  @IBOutlet weak var optionAButton: UIButton!
-  @IBOutlet weak var optionBButton: UIButton!
-  @IBOutlet weak var optionCButton: UIButton!
-  @IBOutlet weak var optionDButton: UIButton!
+  @IBOutlet weak var optionFirstButton: UIButton!
+  @IBOutlet weak var optionSecondButton: UIButton!
+  @IBOutlet weak var optionThirdButton: UIButton!
+  @IBOutlet weak var optionFourthButton: UIButton!
   @IBOutlet weak var progressBar: UIProgressView!
   
   
@@ -56,45 +56,45 @@ class ViewController: UIViewController {
   
   func updateButton(_ sender:UIButton) {
     if sender.titleLabel?.text == answerQuestion && sender.tag == 1 {
-      optionAButton.backgroundColor = .systemGreen
-      optionAButton.setTitleColor(.white, for: .normal)
+      optionFirstButton.backgroundColor = .systemGreen
+      optionFirstButton.setTitleColor(.white, for: .normal)
     } else if sender.titleLabel?.text == answerQuestion && sender.tag == 2 {
-      optionBButton.backgroundColor = .systemGreen
-      optionBButton.setTitleColor(.white, for: .normal)
+      optionSecondButton.backgroundColor = .systemGreen
+      optionSecondButton.setTitleColor(.white, for: .normal)
     } else if sender.titleLabel?.text == answerQuestion && sender.tag == 3 {
-      optionCButton.backgroundColor = .systemGreen
-      optionCButton.setTitleColor(.white, for: .normal)
+      optionThirdButton.backgroundColor = .systemGreen
+      optionThirdButton.setTitleColor(.white, for: .normal)
     } else if sender.titleLabel?.text == answerQuestion && sender.tag == 4 {
-      optionDButton.backgroundColor = .systemGreen
-      optionDButton.setTitleColor(.white, for: .normal)
+      optionFourthButton.backgroundColor = .systemGreen
+      optionFourthButton.setTitleColor(.white, for: .normal)
     }
     
     if sender.titleLabel?.text != answerQuestion && sender.tag == 1 {
-      optionAButton.backgroundColor = .systemRed
-      optionAButton.setTitleColor(.white, for: .normal)
+      optionFirstButton.backgroundColor = .systemRed
+      optionFirstButton.setTitleColor(.white, for: .normal)
     } else if sender.titleLabel?.text != answerQuestion && sender.tag == 2 {
-      optionBButton.backgroundColor = .systemRed
-      optionBButton.setTitleColor(.white, for: .normal)
+      optionSecondButton.backgroundColor = .systemRed
+      optionSecondButton.setTitleColor(.white, for: .normal)
     } else if sender.titleLabel?.text != answerQuestion && sender.tag == 3 {
-      optionCButton.backgroundColor = .systemRed
-      optionCButton.setTitleColor(.white, for: .normal)
+      optionThirdButton.backgroundColor = .systemRed
+      optionThirdButton.setTitleColor(.white, for: .normal)
     } else if sender.titleLabel?.text != answerQuestion && sender.tag == 4 {
-      optionDButton.backgroundColor = .systemRed
-      optionDButton.setTitleColor(.white, for: .normal)
+      optionFourthButton.backgroundColor = .systemRed
+      optionFourthButton.setTitleColor(.white, for: .normal)
     }
     
-    if optionAButton.titleLabel?.text == answerQuestion && sender.titleLabel?.text != optionAButton.titleLabel?.text {
-      optionAButton.backgroundColor = .systemGreen
-      optionAButton.setTitleColor(.white, for: .normal)
-    } else if optionBButton.titleLabel?.text == answerQuestion && sender.titleLabel?.text != optionBButton.titleLabel?.text {
-      optionBButton.backgroundColor = .systemGreen
-      optionBButton.setTitleColor(.white, for: .normal)
-    } else if optionCButton.titleLabel?.text == answerQuestion && sender.titleLabel?.text != optionCButton.titleLabel?.text {
-      optionCButton.backgroundColor = .systemGreen
-      optionCButton.setTitleColor(.white, for: .normal)
-    } else if optionDButton.titleLabel?.text == answerQuestion && sender.titleLabel?.text != optionDButton.titleLabel?.text {
-      optionDButton.backgroundColor = .systemGreen
-      optionDButton.setTitleColor(.white, for: .normal)
+    if optionFirstButton.titleLabel?.text == answerQuestion && sender.titleLabel?.text != optionFirstButton.titleLabel?.text {
+      optionFirstButton.backgroundColor = .systemGreen
+      optionFirstButton.setTitleColor(.white, for: .normal)
+    } else if optionSecondButton.titleLabel?.text == answerQuestion && sender.titleLabel?.text != optionSecondButton.titleLabel?.text {
+      optionSecondButton.backgroundColor = .systemGreen
+      optionSecondButton.setTitleColor(.white, for: .normal)
+    } else if optionThirdButton.titleLabel?.text == answerQuestion && sender.titleLabel?.text != optionThirdButton.titleLabel?.text {
+      optionThirdButton.backgroundColor = .systemGreen
+      optionThirdButton.setTitleColor(.white, for: .normal)
+    } else if optionFourthButton.titleLabel?.text == answerQuestion && sender.titleLabel?.text != optionFourthButton.titleLabel?.text {
+      optionFourthButton.backgroundColor = .systemGreen
+      optionFourthButton.setTitleColor(.white, for: .normal)
     }
   }
   
@@ -122,10 +122,10 @@ class ViewController: UIViewController {
     if questionNumber <= allQuestions.getQuestion().count - 1 {
       UserDefaults.standard.set(questionNumber, forKey: "qusetionNumber")
       questionLabel.text = allQuestions.getQuestion()[questionNumber].question
-      optionAButton.setTitle(allQuestions.getQuestion()[questionNumber].answers[0], for: .normal)
-      optionBButton.setTitle(allQuestions.getQuestion()[questionNumber].answers[1], for: .normal)
-      optionCButton.setTitle(allQuestions.getQuestion()[questionNumber].answers[2], for: .normal)
-      optionDButton.setTitle(allQuestions.getQuestion()[questionNumber].answers[3], for: .normal)
+      optionFirstButton.setTitle(allQuestions.getQuestion()[questionNumber].answers[0], for: .normal)
+      optionSecondButton.setTitle(allQuestions.getQuestion()[questionNumber].answers[1], for: .normal)
+      optionThirdButton.setTitle(allQuestions.getQuestion()[questionNumber].answers[2], for: .normal)
+      optionFourthButton.setTitle(allQuestions.getQuestion()[questionNumber].answers[3], for: .normal)
       answerQuestion = allQuestions.getQuestion()[questionNumber].correctAnswer
       updateUI()
     } else {
@@ -138,15 +138,15 @@ class ViewController: UIViewController {
   
   
   func updateUI() {
-    optionAButton.backgroundColor = .clear
-    optionBButton.backgroundColor = .clear
-    optionCButton.backgroundColor = .clear
-    optionDButton.backgroundColor = .clear
+    optionFirstButton.backgroundColor = .clear
+    optionSecondButton.backgroundColor = .clear
+    optionThirdButton.backgroundColor = .clear
+    optionFourthButton.backgroundColor = .clear
     
-    optionAButton.setTitleColor(UIColor(hex: 0xE36856), for: .normal)
-    optionBButton.setTitleColor(UIColor(hex: 0xE36856), for: .normal)
-    optionCButton.setTitleColor(UIColor(hex: 0xE36856), for: .normal)
-    optionDButton.setTitleColor(UIColor(hex: 0xE36856), for: .normal)
+    optionFirstButton.setTitleColor(UIColor(hex: 0xE36856), for: .normal)
+    optionSecondButton.setTitleColor(UIColor(hex: 0xE36856), for: .normal)
+    optionThirdButton.setTitleColor(UIColor(hex: 0xE36856), for: .normal)
+    optionFourthButton.setTitleColor(UIColor(hex: 0xE36856), for: .normal)
 
     valueScoreLabel.text = "\(Int(score))"
     if UserDefaults.standard.integer(forKey: "HighestScore") < Int(score) {
