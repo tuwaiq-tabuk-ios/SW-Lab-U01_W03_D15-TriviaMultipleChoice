@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2080B90F27213D080050D5BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080B90E27213D080050D5BC /* AppDelegate.swift */; };
+		2080B91127213D080050D5BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080B91027213D080050D5BC /* SceneDelegate.swift */; };
+		2080B91327213D080050D5BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080B91227213D080050D5BC /* ViewController.swift */; };
+		2080B91627213D080050D5BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2080B91427213D080050D5BC /* Main.storyboard */; };
+		2080B91827213D090050D5BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2080B91727213D090050D5BC /* Assets.xcassets */; };
+		2080B91B27213D090050D5BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2080B91927213D090050D5BC /* LaunchScreen.storyboard */; };
+		2080B923272154D10050D5BC /* MyQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080B922272154D10050D5BC /* MyQuestion.swift */; };
+		2080B925272158EE0050D5BC /* QuastionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080B924272158EE0050D5BC /* QuastionBank.swift */; };
+		2080B927272190F50050D5BC /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2080B926272190F50050D5BC /* clap.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2080B90B27213D080050D5BC /* Trivia Multiple Choice "Ameera _ Ahmad".app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trivia Multiple Choice \"Ameera _ Ahmad\".app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2080B90E27213D080050D5BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2080B91027213D080050D5BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2080B91227213D080050D5BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2080B91527213D080050D5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2080B91727213D090050D5BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2080B91A27213D090050D5BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2080B91C27213D090050D5BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2080B922272154D10050D5BC /* MyQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyQuestion.swift; sourceTree = "<group>"; };
+		2080B924272158EE0050D5BC /* QuastionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuastionBank.swift; sourceTree = "<group>"; };
+		2080B926272190F50050D5BC /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2080B90827213D080050D5BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2080B90227213D080050D5BC = {
+			isa = PBXGroup;
+			children = (
+				2080B90D27213D080050D5BC /* Trivia Multiple Choice "Ameera _ Ahmad" */,
+				2080B90C27213D080050D5BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2080B90C27213D080050D5BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2080B90B27213D080050D5BC /* Trivia Multiple Choice "Ameera _ Ahmad".app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2080B90D27213D080050D5BC /* Trivia Multiple Choice "Ameera _ Ahmad" */ = {
+			isa = PBXGroup;
+			children = (
+				2080B926272190F50050D5BC /* clap.wav */,
+				2080B90E27213D080050D5BC /* AppDelegate.swift */,
+				2080B91027213D080050D5BC /* SceneDelegate.swift */,
+				2080B91227213D080050D5BC /* ViewController.swift */,
+				2080B922272154D10050D5BC /* MyQuestion.swift */,
+				2080B924272158EE0050D5BC /* QuastionBank.swift */,
+				2080B91427213D080050D5BC /* Main.storyboard */,
+				2080B91727213D090050D5BC /* Assets.xcassets */,
+				2080B91927213D090050D5BC /* LaunchScreen.storyboard */,
+				2080B91C27213D090050D5BC /* Info.plist */,
+			);
+			path = "Trivia Multiple Choice \"Ameera _ Ahmad\"";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2080B90A27213D080050D5BC /* Trivia Multiple Choice "Ameera _ Ahmad" */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2080B91F27213D090050D5BC /* Build configuration list for PBXNativeTarget "Trivia Multiple Choice "Ameera _ Ahmad"" */;
+			buildPhases = (
+				2080B90727213D080050D5BC /* Sources */,
+				2080B90827213D080050D5BC /* Frameworks */,
+				2080B90927213D080050D5BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trivia Multiple Choice \"Ameera _ Ahmad\"";
+			productName = "Trivia Multiple Choice \"Ameera _ Ahmad\"";
+			productReference = 2080B90B27213D080050D5BC /* Trivia Multiple Choice "Ameera _ Ahmad".app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2080B90327213D080050D5BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2080B90A27213D080050D5BC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 2080B90627213D080050D5BC /* Build configuration list for PBXProject "Trivia Multiple Choice "Ameera _ Ahmad"" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2080B90227213D080050D5BC;
+			productRefGroup = 2080B90C27213D080050D5BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2080B90A27213D080050D5BC /* Trivia Multiple Choice "Ameera _ Ahmad" */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2080B90927213D080050D5BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2080B927272190F50050D5BC /* clap.wav in Resources */,
+				2080B91B27213D090050D5BC /* LaunchScreen.storyboard in Resources */,
+				2080B91827213D090050D5BC /* Assets.xcassets in Resources */,
+				2080B91627213D080050D5BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2080B90727213D080050D5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2080B91327213D080050D5BC /* ViewController.swift in Sources */,
+				2080B923272154D10050D5BC /* MyQuestion.swift in Sources */,
+				2080B925272158EE0050D5BC /* QuastionBank.swift in Sources */,
+				2080B90F27213D080050D5BC /* AppDelegate.swift in Sources */,
+				2080B91127213D080050D5BC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2080B91427213D080050D5BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2080B91527213D080050D5BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2080B91927213D090050D5BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2080B91A27213D090050D5BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2080B91D27213D090050D5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2080B91E27213D090050D5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2080B92027213D090050D5BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KR6LU68Z5;
+				INFOPLIST_FILE = "Trivia Multiple Choice \"Ameera _ Ahmad\"/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ameera.Trivia-Multiple-Choice--Ameera---Ahmad-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2080B92127213D090050D5BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KR6LU68Z5;
+				INFOPLIST_FILE = "Trivia Multiple Choice \"Ameera _ Ahmad\"/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ameera.Trivia-Multiple-Choice--Ameera---Ahmad-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2080B90627213D080050D5BC /* Build configuration list for PBXProject "Trivia Multiple Choice "Ameera _ Ahmad"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2080B91D27213D090050D5BC /* Debug */,
+				2080B91E27213D090050D5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2080B91F27213D090050D5BC /* Build configuration list for PBXNativeTarget "Trivia Multiple Choice "Ameera _ Ahmad"" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2080B92027213D090050D5BC /* Debug */,
+				2080B92127213D090050D5BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2080B90327213D080050D5BC /* Project object */;
+}
