@@ -21,7 +21,10 @@ Sixth App that replicates the Trivia game where the users have to choose between
 ## Video
 
 
-https://user-images.githubusercontent.com/91871668/138276058-ba5698c1-865e-4fd2-be50-db0ca4903c34.mp4
+
+
+https://user-images.githubusercontent.com/91871668/138572990-1a704f98-8dff-4d5d-8f1b-81b52efa639f.mp4
+
 
 
 
